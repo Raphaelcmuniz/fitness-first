@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização</title>
+
+    <style>
+       body {
+            font-size: 100;
+            background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+       }
+       .mapa {
+           text-align: center;
+           position: relative;
+           top: 200px;
+       }
+       .cabecalho {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 24px;
+            border-bottom: 0.4px solid rgba(255, 255, 255, 0.637);
+       }
+       .cabecalho-imagem {
+        height: 72px;
+        position: relative;
+        right: 80px;
+        }
+        .cabecalho-menu {
+            display: flex;
+            gap: 32px;
+            position: relative;
+            left: 120px;
+        }
+
+        .cabecalho-menu-item {
+            font-family: 'Sarala', sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .rodape {
+            position: relative;
+            top: 460px;
+            padding: 32px;
+            border-top: 0.4px solid #fff2e7;
+        }
+        
+        .rodape-paragrafo {
+
+            text-align: center;    
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem"src="imagens-site/logo.jpg" alt="logo">
+    
+        <nav class="cabecalho-menu">  <!--"nav" menu de navegação -->
+    
+            <a class="cabecalho-menu-item">Nossa História</a>    <!--"a" âncora, que serve para redirecionar para outra pag-->
+            <a class="cabecalho-menu-item"><a href="localização.html">Localização</a></a>
+            <a class="cabecalho-menu-item">Tralbalhe conosco</a>
+    
+        </nav>
+    </header>
+    <section class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.050429170687!2d-43.02962938444866!3d-22.874595442475297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99855b6ddfe52b%3A0xc3797dc92425209c!2sR.%20Expedicion%C3%A1rio%20El%C3%ADas%20Vit%C3%B3rino%20de%20Souza%2C%2035%20-%20Maria%20Paula%2C%20S%C3%A3o%20Gon%C3%A7alo%20-%20RJ%2C%2024756-290!5e0!3m2!1spt-BR!2sbr!4v1647905611617!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <footer class="rodape">
+        <p class="rodape-paragrafo">&copy;Raphael Carvalho</p>
+    </footer>
+</body>
+
+</html>
